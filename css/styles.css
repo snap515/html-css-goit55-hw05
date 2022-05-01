@@ -95,6 +95,10 @@ img {
     margin-right: 50px;
 }
 
+.nav-item {
+    position: relative;
+}
+
 .nav-link {
     display: block;
     padding-top: 32px;
@@ -142,6 +146,20 @@ img {
 
 .current-link {
     color: var(--brand-color);
+}
+
+.nav-link.current-link::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+
+    height: 4px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 2px;
+    background-color: var(--brand-color);
 }
 
 /* Hero */
