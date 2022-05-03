@@ -346,6 +346,8 @@ img {
 .teammate-wrap {
     padding-top: 30px;
     padding-bottom: 30px;
+
+    background-color: var(--white-color);
 }
 
 .teammate-name {
